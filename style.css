@@ -9,11 +9,14 @@ body {
 }
 
 /* nav section */
+#nav nav {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
 #nav .navbar-brand::after {
   content: '';
   height: 7px;
   width: 7px;
-  background-color: #fff;
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
   display: inline-block;
   margin-left: 10px;
 }
@@ -21,8 +24,18 @@ body {
   color: #fff;
 }
 #nav .navbar ul li a:hover {
-  color: orange;
+  color: rgba(29, 224, 153);
 	transition: .4s;
+}
+#nav .get-start a {
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+  transition: transform .5s;
+}
+#nav .get-start a:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  transform: scale(1.1);
+  color: rgba(29, 224, 153);
 }
 
 /* header backgroung-img section */
@@ -49,10 +62,11 @@ body {
   font-size: 40px;
 }
 #header .header-text span {
-  color: #621042;
+  color: rgba(29, 224, 153);
 }
 #header .header-btn a {
-  background: linear-gradient();
+  color: #1de099;
+  border: 1px solid #1de099;
 }
 #header .header-img {
   position: absolute;
@@ -90,7 +104,7 @@ body {
   height: 3px;
   border-radius: 3px;
   margin: 0 auto;
-  background-color: red;
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
 }
 #about .about-text p {
   text-align: justify;
