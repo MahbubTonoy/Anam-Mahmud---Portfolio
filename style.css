@@ -73,12 +73,12 @@ body {
   top: 22%;
 }
 
- @media only screen and (max-width: 700px) {
+ @media only screen and (max-width: 600px) {
   #header {
-    height: 112vh;
+    height: 155vh;
   }
   #header .header-text {
-    top: 75%;
+    top: 100%;
   }
   #header .header-text h1 {
     font-size: 40px;
