@@ -81,7 +81,7 @@ body {
     top: 100%;
   }
   #header .header-text h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   #header .header-text h3 {
     font-size: 30px;
@@ -108,4 +108,18 @@ body {
 }
 #about .about-text p {
   text-align: justify;
+}
+
+
+
+/* work_experience */
+#work_experience {
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+#work_experience .work_experience-head hr {
+  width: 100px;
+  height: 3px;
+  border-radius: 3px;
+  margin: 0 auto;
+  background-color: rgb(3, 10, 23);
 }
