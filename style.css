@@ -117,6 +117,9 @@ body {
 #work_experience {
   background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
 }
+#work_experience .work_experience-head h1 {
+  pointer-events:none;
+}
 #work_experience .work_experience-head hr {
   width: 100px;
   height: 3px;
@@ -188,3 +191,31 @@ body {
     height: 100vh;              
   }
  }
+
+
+
+ /* contact section */
+ #contact {
+  background-color: rgb(3, 10, 23, 0.9);
+}
+#contact .contact-head h1 {
+  color: #fff;
+  pointer-events:none;
+}
+#contact .contact-head hr {
+  width: 100px;
+  height: 3px;
+  border-radius: 3px;
+  margin: 0 auto;
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+
+
+
+/* hire me section */
+#hire-me {
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+#hire-me .hire-me-text h1 {
+  pointer-events:none;
+}
