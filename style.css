@@ -152,12 +152,23 @@ body {
 
 
 
+/* hire me section */
+#hire-me {
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+#hire-me .hire-me-text h1 {
+  pointer-events:none;
+}
+
+
+
 
 /* portfolio section */
 #portfolio {
-  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+  background-color: rgb(3, 10, 23, 0.9);
 }
 #portfolio .portfolio-head h1 {
+  color: #fff;
   pointer-events:none;
 }
 #portfolio .portfolio-head hr {
@@ -165,7 +176,10 @@ body {
   height: 3px;
   border-radius: 3px;
   margin: 0 auto;
-  background-color: rgb(3, 10, 23);
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+#portfolio .card {
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
 }
 
 
@@ -193,10 +207,9 @@ body {
 
  /* contact section */
  #contact {
-  background-color: rgb(3, 10, 23, 0.9);
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
 }
 #contact .contact-head h1 {
-  color: #fff;
   pointer-events:none;
 }
 #contact .contact-head hr {
@@ -204,17 +217,7 @@ body {
   height: 3px;
   border-radius: 3px;
   margin: 0 auto;
-  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
-}
-
-
-
-/* hire me section */
-#hire-me {
-  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
-}
-#hire-me .hire-me-text h1 {
-  pointer-events:none;
+  background-color: rgb(3, 10, 23, 0.9);
 }
 
 
